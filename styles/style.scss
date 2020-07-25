@@ -1,10 +1,10 @@
-body {
+body{
   margin: 0px;
   background-color: #21c08b;
-  font-family: "Muli", sans-serif;
-}
+  font-family: 'Muli', sans-serif;
 
-.header {
+}
+.header{
   width: 100%;
   height: 80px;
   background-color: #21c08b;
@@ -12,14 +12,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
 .header__img {
   width: 200px;
   margin-top: 10px;
   margin-left: 10px;
 }
-
-.login {
+.login{
   background: linear-gradient(#21c08b, #AB88FF);
   display: flex;
   align-items: center;
@@ -29,7 +27,7 @@ body {
   min-height: calc(100vh - 200px);
 }
 
-.login__container {
+.login__container{
   background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid white;
   border-radius: 40px;
@@ -41,80 +39,69 @@ body {
   justify-content: space-around;
   flex-direction: column;
 }
-
-.login__container--form {
+.login__container--form{
   display: flex;
   flex-direction: column;
 }
-
-.login__container--form label {
+.login__container--form label{
   font-size: 14px;
 }
-
 .login__container--remember-me {
   color: white;
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
-
-.login__container--remember-me a {
+.login__container--remember-me a{
   color: white;
   font-size: 14px;
   text-decoration: none;
   margin-top: 4px;
 }
-
-.login__container--remember-me a:hover {
+.login__container--remember-me a:hover{
   text-decoration: underline;
 }
 
-.login__container--social-media div {
+.login__container--social-media div{
   display: flex;
   align-items: center;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-.login__container--social-media > div > img {
-  width: 30px;
-  margin-right: 10px;
+.login__container--social-media > div > img{
+    width: 30px;
+    margin-right: 10px;
 }
-
 .login__container--register {
   font-size: 14px;
 }
-
-.login__container--register a {
+.login__container--register a{
   font-size: 16px;
   color: white;
   font-weight: bold;
   text-decoration: none;
 }
-
-.login__container--register a:hover {
+.login__container--register a:hover{
   text-decoration: underline;
 }
-
-.input {
+.input{
   background-color: transparent;
   border-left: 0px;
   border-top: 0px;
   border-right: 0px;
   border-bottom: 2px solid white;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 16px;
   margin-bottom: 20px;
   padding: 0px 20px;
   outline: none;
   height: 50px;
 }
-
-::placeholder {
+::placeholder{
   color: white;
 }
-
-.button {
+.button{
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   border-radius: 25px;
@@ -122,13 +109,12 @@ body {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   height: 50px;
   letter-spacing: 1px;
   outline: none;
   margin: 10px 0px;
 }
-
 .footer {
   display: flex;
   align-items: center;
@@ -136,7 +122,6 @@ body {
   width: 100%;
   background-color: #AB88FF;
 }
-
 .footer a {
   cursor: pointer;
   font-size: 14px;
@@ -144,13 +129,12 @@ body {
   padding-left: 30px;
   text-decoration: none;
 }
-
-.footer a:hover {
+.footer a:hover{
   text-decoration: underline;
 }
 
 /*esta parte son los estilos exclusivos de registar*/
-.login__container--iniciar a {
+.login__container--iniciar a{
   font-size: 16px;
   color: white;
   font-weight: bold;
@@ -158,23 +142,19 @@ body {
   display: flex;
   justify-content: center;
 }
-
-.login__container--iniciar a:hover {
+.login__container--iniciar a:hover{
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
-  .login__container {
+@media only screen and (max-width: 600px){
+  .login__container{
     background-color: transparent;
     border: none;
     padding: 0px;
     width: 100%;
   }
-
-  .footer {
+  .footer{
     align-items: flex-start;
     flex-direction: column;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
